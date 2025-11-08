@@ -1,0 +1,21 @@
+* {
+    font: "Katibeh", serif;
+    border: solid 1px red;
+}
+
+.container1 {
+    display: flex;
+    background-color: #a9ffca;
+}
+
+.title1 {
+    padding-top: 0.1em;
+    padding-left: 1em;
+    padding-bottom: 0.1em;
+}
+
+.rectrangle2 {
+    background-color: #a9ffca;
+    opacity: 32%;
+    height: 1em;
+}

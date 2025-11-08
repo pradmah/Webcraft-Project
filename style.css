@@ -1,14 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+
 * {
-    font: "Katibeh", serif;
     border: solid 1px red;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
 }
 
 .container1 {
     display: flex;
     background-color: #a9ffca;
+    flex-grow: 1;
+}
+
+.container2 {
+    display: flex;
+    background-color: #a9ffca66;
+    padding: 1em;
 }
 
 .title1 {
+    font: "Katibeh";
+    color: #00ac09;
     padding-top: 0.1em;
     padding-left: 1em;
     padding-bottom: 0.1em;
@@ -18,4 +34,11 @@
     background-color: #a9ffca;
     opacity: 32%;
     height: 1em;
+}
+
+.container-transparent {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
